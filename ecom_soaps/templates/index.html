@@ -1,0 +1,189 @@
+{% load static %}
+{% comment %} {% load fontawesome %} {% endcomment %}
+{% comment %} {% fa 'heart' %} {% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAKESPARE SOAPS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-2B/B/GKtvMMYpZJO0bYC38x9K7XAxxGd9XYoXUKk7rlFzj6IjK4BuxU2bE1AuVK03e72VzdLvwQAgWBoVMmWNAw==" crossorigin="anonymous" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="icon" type="image/x-icon" href="favicon-logo.png">
+    
+</head>
+
+<!--navbar-->
+<div class="navsec">
+  <nav
+    class="navbar navcus navbar-inverse shadow navbar-expand-lg fixed-top"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand m-2" href=""><img src=".....">SHAKESPARE SOAPS</a>
+      <button
+        class="navbar-toggler bg-secondary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a
+            class="nav-link mr-2 text-dark"
+            aria-current="page"
+            href="#home"
+            >Home</a>
+          <a class="nav-link mr-2 text-dark" href="#about-us">About-Us</a>
+          <a class="nav-link mr-2 text-dark" href="#contact-us"
+            >All Products</a
+          >
+
+          
+        </div>
+        <div class="nav ms-auto">
+      
+          <!-- <a class="nav-link" href="#"><i class="fas fa-search"></i> Search</a> -->
+          <form class="form d-flex  align-items-center ml-5">
+            <input class="form-control me-2 border rounded-pill" type="search" placeholder="Search...." aria-label="Search">
+            <i class="fas fa-search"></i>
+          </form>
+          <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+          <a class="nav-link" href="#"><i class="fas fa-user"></i>Profile</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<!-- hero
+<div class="container-fluid">
+<div class="row">
+  <div class="col-12"> -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'img/soap1.jpg' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/soap2.jpg' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/soap3.jpg' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/soap4.jpeg' %}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <!-- </div>
+</div>
+</div> -->
+<!--  -->
+
+
+
+<!-- Why Us Section -->
+<section class="py-5">
+  <div class="wus container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mb-4">Why Us?</h2>
+        <p class="lead">We are passionate about creating natural and effective skincare products that are good for you and the environment.</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <div class="mb-3">
+            <img src="data:image/png;base64,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">            </div>
+            <h4 class="card-title">Quality</h4>
+            <p class="card-text">Our skincare range has been continually perfected from years of research. Formulated with the nature’s most active ingredients, this is quality, in a true sense.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <div class="mb-3">
+              <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/sustainability.png" alt="sustainability"/>            </div>
+            <h4 class="card-title">Sustainability</h4>
+            <p class="card-text">KAIRA believes in sustainability. We advocate choices that are nature friendly and human friendly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <div class="mb-3">
+            </div>
+            <h4 class="card-title">@@@@@@@</h4>
+            <p class="card-text">Being completely Natural, we derive nature's humble quality of being sensual and sensitive at the same time. We just give you what Nature gives us!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <div class="mb-3">
+              <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/microscope.png" alt="microscope"/>            </div>
+            <h4 class="card-title">Research & Expertise</h4>
+            <p class="card-text">Our extensive study of skin care concepts have yielded formulations, that are environment friendly, safe and most importantly, effective products that work long-term.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="prod-card">
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<body>

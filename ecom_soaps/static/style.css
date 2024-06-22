@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Carter+One&family=Comfortaa:wght@700&family=Jost:wght@400;500&family=Poppins:wght@500&family=Roboto+Mono:wght@500&family=Rubik:wght@500&family=Sedgwick+Ave+Display&family=Signika+Negative:wght@300;400;500&family=Sono:wght@500&display=swap');
+
+@media (min-width:320px) and (max-width:425px){
+    .form{
+        display: none;
+    }
+}
+
+.navbar{
+    background: linear-gradient(to right, #30d5fe91, #f6f8d0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    backdrop-filter: blur(20px);
+    /* height: 110px; */
+}
+.navbar-brand{
+    background-color: rgb(19, 18, 14);
+    padding-right: 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    font-family: 'Jost';
+}
+.navbar-brand img{
+    filter: drop-shadow(0px 0px 8px white);
+    width: 65px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Comfortaa','Alkatra';
+    /* margin-right: 50px; */
+ }
+ .nav-link:hover{
+     color: rgba(51, 255, 0, 0.92) !important;
+     text-shadow: 1px 1px 3px black;
+ }
+
+.btn{
+    font-size:17px;
+    margin-top: 5px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: 'Merriweather','Alkatra';
+}
+.navbar-brand:hover{
+    color: aliceblue;
+  
+}
+
+
+
+.search{
+    height: 35px;
+    border-radius: 6px;
+    margin: auto;
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height: 97vh; 
+    background-size: cover;
+
+}
+
+
+/* why us */
+.wus{
+    background-color: #59C173; /* fallback for old browsers
+    /* background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.wus .card{
+    background-color: rgba(43, 255, 0, 0.527);
+    min-height: 290px;
+    border: 3px solid black;
+    backdrop-filter: blur(10px);
+    transition: box-shadow 0.3s ease;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+.card .card-text{
+    font-size: 30px;
+}
+.card-body:hover{
+    box-shadow: 2px 6px 8px 5px black;
+    transition:  linear all 0.3s;
+    
+
+}
+
+.card:hover,
+.card:hover::before {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+.prod-card .card{
+    width: 80px;
+    height: auto;
+}
+
